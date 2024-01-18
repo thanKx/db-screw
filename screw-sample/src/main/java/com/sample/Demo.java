@@ -33,9 +33,9 @@ public class Demo {
         //数据源
         HikariConfig hikariConfig = new HikariConfig();
         hikariConfig.setDriverClassName("com.mysql.jdbc.Driver");
-        hikariConfig.setJdbcUrl("jdbc:mysql://223.113.12.174:10001/digitallab_prod");
-        hikariConfig.setUsername("lab_prod");
-        hikariConfig.setPassword("Jszj@prod5768");
+        hikariConfig.setJdbcUrl("");
+        hikariConfig.setUsername("");
+        hikariConfig.setPassword("J");
         //设置可以获取tables remarks信息
         hikariConfig.addDataSourceProperty("useInformationSchema", "true");
         hikariConfig.setMinimumIdle(2);
